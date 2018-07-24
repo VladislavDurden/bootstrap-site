@@ -1,0 +1,73 @@
+body {
+    background-image: url(5.jpg);
+}
+
+.header {
+    font-family: 'Bungee Inline', cursive;
+}
+
+.thumbnails {
+    padding-top: 50px;
+    padding-left: 20px;
+    margin: auto;
+    height: 10%;
+    font-weight: bold;
+    font-family: 'Bungee', cursive;
+}
+
+.thumbnail {
+    background: white;
+}
+
+#myCarousel {
+    max-height: 550px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+
+.invisible {
+    display: none;
+}
+
+#see-more {
+    background: #fbff19;
+    color: #000;
+    margin-left: 46%;
+    font-family: 'Jua', sans-serif;
+}
+#see-more:hover {
+    background: #f2b500;
+    color: #fff;
+}
+
+#hide-btn {
+    background: #fbff19;
+    color: #000;
+    margin-left: 47%;
+    font-family: 'Jua', sans-serif;
+}
+#hide-btn:hover {
+    background: #f2b500;
+    color: #fff;
+}
+
+.dropdown-menu > li > a:hover {
+    background: #666;
+    color: #000;
+}
+
+.footer {
+    padding: 10px 0 10px 10px;
+    margin-top: 5%;
+}
+
+.fa-vk:hover{
+    color: #4286f4;
+}
+.fa-facebook-square:hover{
+    color: #1a0aff;
+}
+.fa-instagram:hover{
+    color: #ff30ea;
+}
