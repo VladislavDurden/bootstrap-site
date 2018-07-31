@@ -6,23 +6,31 @@ body {
     font-family: 'Bungee Inline', cursive;
 }
 
+#languges .container h1,
+#languages .container h2,
+#other {
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+#myCarousel {
+    max-height: 625px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
 .thumbnails {
     padding-top: 50px;
-    padding-left: 20px;
-    margin: auto;
+    /*    padding-left: 20px;*/
+    /*    margin: auto;*/
     height: 10%;
     font-weight: bold;
-    font-family: 'Bungee', cursive;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .thumbnail {
     background: white;
-}
-
-#myCarousel {
-    max-height: 550px;
-    overflow: hidden;
-    margin-top: 50px;
 }
 
 
@@ -36,6 +44,7 @@ body {
     margin-left: 46%;
     font-family: 'Jua', sans-serif;
 }
+
 #see-more:hover {
     background: #f2b500;
     color: #fff;
@@ -47,6 +56,7 @@ body {
     margin-left: 47%;
     font-family: 'Jua', sans-serif;
 }
+
 #hide-btn:hover {
     background: #f2b500;
     color: #fff;
@@ -57,17 +67,70 @@ body {
     color: #000;
 }
 
-.footer {
-    padding: 10px 0 10px 10px;
-    margin-top: 5%;
+#other {
+    margin: 100px 10px 30px 10px;
+    color: #fff;
+    font-size: 25px;
+    line-height: 35px;
+    min-height: 600px;
 }
 
-.fa-vk:hover{
+#other > h1 {
+    margin-bottom: 50px;
+}
+
+.nav-tabs li a {
+    color: #000;
+    font-weight: bold;
+    background: #fbff19;
+}
+
+.tab-content {
+    min-height: 150px;
+    margin-top: 50px;
+
+}
+
+.img-center{
+    text-align: center;
+}
+.img-center img{
+    max-height: 200px;
+}
+
+.footer {
+    background: #000;
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+    line-height: 36px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.btn-group{
+    position: fixed;
+    top: 90%;
+
+}
+#social{
+    opacity: 0.5;    
+}
+
+.btn-group:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+.fa-vk:hover {
     color: #4286f4;
 }
-.fa-facebook-square:hover{
+
+.fa-facebook-square:hover {
     color: #1a0aff;
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
     color: #ff30ea;
 }
