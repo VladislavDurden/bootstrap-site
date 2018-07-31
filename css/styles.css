@@ -123,6 +123,14 @@ body {
     outline-offset: 0;
 }
 
+
+.btn-group:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
 .fa-vk:hover {
     color: #4286f4;
 }
