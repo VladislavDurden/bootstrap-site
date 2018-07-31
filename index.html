@@ -2,69 +2,68 @@
 <html>
 
 <head>
-    <title>Bootstrap 101 Template</title>
+    <title>World of Programming</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Jua" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu|Bungee+Inline|Jua" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 
     <div class="header">
 
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="navbar-inner">
-                <div class="container">
 
-                    <!-- Be sure to leave the brand out there if you want it shown -->
-                    <a class="brand" href="#">Project name</a>
+                <!-- Be sure to leave the brand out there if you want it shown -->
+                <a class="brand" href="#">...ETU</a>
 
-                    <!-- Everything you want hidden at 940px or less, place within here -->
-                    <div class="nav-collapse collapse">
-                        <!-- .nav, .navbar-search, .navbar-form, etc -->
-
+                <!-- Everything you want hidden at 940px or less, place within here -->
+                <div class="nav-collapse collapse">
+                    <!-- .nav, .navbar-search, .navbar-form, etc -->
 
 
-                        <!--                    NAVIGATION LINKS-->
-                        <ul class="nav">
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Link</a></li>
-                            <li><a href="#">Link</a></li>
-                        </ul>
+
+                    <!--                    NAVIGATION LINKS-->
+                    <ul class="nav">
+                        <li><a href="#slider">SLIDER</a></li>
+                        <li><a href="#languages">LANGUAGES</a></li>
+                        <li><a href="#other">OTHER</a></li>
+                        <li><a href="#contacts">CONTACTS</a></li>
+                    </ul>
 
 
-                        <!--                    DROPDOWN LINKS-->
+                    <!--                         SEARCH FORM-->
+                    <form class="navbar-search pull-left">
+                        <input type="text" class="search-query" placeholder="Search">
+                    </form>
 
-                        <ul class="nav">
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Account<b class="caret"></b></a>
-                                <ul class="dropdown-menu">
 
-                                    <li><a href="#">Link</a></li>
-                                    <li><a href="#">Link</a></li>
-                                    <li><a href="#">Link</a></li>
+                    <!--                    DROPDOWN LINKS-->
 
-                                </ul>
-                            </li>
-                        </ul>
+                    <ul class="nav">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Choose color theme<b class="caret"></b></a>
+                            <ul class="dropdown-menu">
 
-                        <!--                         SEARCH FORM-->
-                        <form class="navbar-search pull-left">
-                            <input type="text" class="search-query" placeholder="Search">
-                        </form>
+                                <li><a id="choose-black" href="#">black</a></li>
+                                <li><a id="choose-blue" href="#">blue</a></li>
+                                <li><a id="choose-red" href="#">red</a></li>
 
-                    </div>
+                            </ul>
+                        </li>
+                    </ul>
 
                 </div>
+
             </div>
         </div>
     </div>
 
-    <div class="slider">
-
+    <div id="slider">
         <div id="myCarousel" class="carousel slide">
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -84,109 +83,115 @@
 
     </div>
 
-    <div class="items">
+    <div id="languages">
+        <div class="container">
+            <h2>When I say ETU, I mean "easy to understand". So on this web-site you can find some usefull information about programming.</h2>
+            <ul class="thumbnails">
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="img/js.jpg" alt="">
+                        <h3>JavaScript</h3>
+                        <p>It's main front-end language. When you surf the Internet and see some animation or some things that change when you doing something on the web-site - it's JS !</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="img/Python.jpg" alt="">
+                        <h3>Python</h3>
+                        <p>This language also use in Web, but not only. Python using for improving developer productivity and code readability. Currently used for programming Neural Networks.</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail">
+                        <img src="img/php.jpg" alt="">
+                        <h3>PHP</h3>
+                        <p>It is one of the most popular back-end language. Usually using in not very massive projects. But Facebook and Wikipedia also using PHP.</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail hide-thumbnail invisible">
+                        <img src="img/java.jpg" alt="">
+                        <h3>Java</h3>
+                        <p>Strong and so popular. Java using in Web like server language, applications for android are written on Java. RuneScape, Amazon, eBay, LinkedIn, Yahoo! using this language.</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail hide-thumbnail invisible">
+                        <img src="img/sharp.jpg" alt="">
+                        <h3>C#</h3>
+                        <p>May be C# not so popular nowadays, but framework .NET is very popular. It's also back-end language and it is often compared with java</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail hide-thumbnail invisible">
+                        <img src="img/c++.jpg" alt="">
+                        <h3>C++</h3>
+                        <p>Widely used for software development, being one of the most popular programming languages. Using for creation of operating systems, device drivers and games</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail hide-thumbnail invisible">
+                        <img src="img/swift.jpg" alt="">
+                        <h3>Swift</h3>
+                        <p>Created by Apple primarily for iOS developers and macOS. It was created to replace the obsolete Objective-C.</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail hide-thumbnail invisible">
+                        <img src="img/Ruby.jpg" alt="">
+                        <h3>Ruby</h3>
+                        <p>Using for creation of simple and at the same time understandable programs,where the speed of the program is not important, but the short development time and simplicity</p>
+                    </div>
+                </li>
+                <li class="span4">
+                    <div class="thumbnail hide-thumbnail invisible">
+                        <img src="img/html.jpg" alt="">
+                        <h3>HTML</h3>
+                        <p>HA-HA-HA, classic. </p>
+                        <p>Yes, of course it's not programming language, but a lot of people think so. HTML stands for HyperText Markup Language, so it's only frame of web-site page.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a id="see-more" class="btn btn-primary btn-large">Show all</a>
+        <a id="hide-btn" class="btn btn-primary btn-large invisible">Hide</a>
+    </div>
 
-        <ul class="thumbnails">
-            <li class="span4">
-                <div class="thumbnail">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fuga magni quo excepturi itaque earum saepe facere quod quae cum repudiandae at rerum unde cupiditate, doloremque aut assumenda iusto architecto!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet ad neque. Esse repellendus vitae, possimus, dolore nostrum dolorum, velit nihil molestiae molestias cupiditate numquam! Ea delectus pariatur sint perferendis.</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fuga magni quo excepturi itaque earum saepe facere quod quae cum repudiandae at rerum unde cupiditate, doloremque aut assumenda iusto architecto!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur accusamus quae expedita. Vel impedit illum ipsam possimus eum a, sit quaerat et, praesentium reprehenderit nisi adipisci obcaecati necessitatibus ut!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur accusamus quae expedita. Vel impedit illum ipsam possimus eum a, sit quaerat et, praesentium reprehenderit nisi adipisci obcaecati necessitatibus ut!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet ad neque. Esse repellendus vitae, possimus, dolore nostrum dolorum, velit nihil molestiae molestias cupiditate numquam! Ea delectus pariatur sint perferendis.</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fuga magni quo excepturi itaque earum saepe facere quod quae cum repudiandae at rerum unde cupiditate, doloremque aut assumenda iusto architecto!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur accusamus quae expedita. Vel impedit illum ipsam possimus eum a, sit quaerat et, praesentium reprehenderit nisi adipisci obcaecati necessitatibus ut!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur eveniet ad neque. Esse repellendus vitae, possimus, dolore nostrum dolorum, velit nihil molestiae molestias cupiditate numquam! Ea delectus pariatur sint perferendis.</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 3</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa fuga magni quo excepturi itaque earum saepe facere quod quae cum repudiandae at rerum unde cupiditate, doloremque aut assumenda iusto architecto!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur accusamus quae expedita. Vel impedit illum ipsam possimus eum a, sit quaerat et, praesentium reprehenderit nisi adipisci obcaecati necessitatibus ut!</p>
-                </div>
-            </li>
-            <li class="span4">
-                <div class="thumbnail hide-thumbnail invisible">
-                    <img src="img/1.jpg" alt="">
-                    <h3>Item 4</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam, pariatur accusamus quae expedita. Vel impedit illum ipsam possimus eum a, sit quaerat et, praesentium reprehenderit nisi adipisci obcaecati necessitatibus ut!</p>
-                </div>
-            </li>
+    <div id="other">
+        <h1>Not only languages make world of programming so amazing!</h1>
+        <ul class="nav nav-tabs" id="myTab">
+            <li class="active"><a href="#API">API</a></li>
+            <li><a href="#Libraries">Libraries</a></li>
+            <li><a href="#Frameworks">Frameworks</a></li>
         </ul>
 
-
-        <a id="see-more" class="btn btn-primary btn-large">Show all</a>
-
-        <a id="hide-btn" class="btn btn-primary btn-large invisible">Hide</a>
-
-    </div>
-    <div class="footer">
-
-        <div class="btn-group">
-            <button class="btn-large"><i class="fab fa-vk fa-3x"></i></button>
-            <button class="btn-large"><i class="fab fa-facebook-square fa-3x"></i></button>
-            <button class="btn-large"><i class="fab fa-instagram fa-3x"></i></button>
+        <div class="tab-content container">
+            <div class="tab-pane active" id="API">
+                <p class="img-center"><img src="img/api.png" alt="api"></p>
+                <p>In plain language it's the ability for an application to access code outside this application.</p>
+                <p>So if it's difficult to understand, imagine the situation: you have a plumbing in the apartment, and the API - plumber's phone, if you need you call him and he repairs the water pipe.</p>
+            </div>
+            <div class="tab-pane" id="Libraries">
+                <p class="img-center"><img src="img/library.png" alt="library"></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam voluptatum, doloribus et similique hic necessitatibus praesentium vitae cupiditate, illum harum eos expedita facere. Minus maiores eveniet voluptatem? Dolorem, fugiat veritatis.</p>
+            </div>
+            <div class="tab-pane" id="Frameworks">
+                <p class="img-center"><img src="img/angular.png" alt="framework"></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, reprehenderit, neque! Esse dolore, commodi repellendus recusandae eos ex maiores ullam eum, atque ad deleniti laborum culpa veniam harum, officia exercitationem.</p>
+            </div>
         </div>
+    </div>
 
+    <div class="btn-group">
+        <button id="social" class="btn-mini btn-inverse"><i class="fas fa-bookmark fa-2x"></i></button>
+        <button id="vk" class="btn-large invisible"><i class="fab fa-vk fa-3x"></i></button>
+        <button id="fb" class="btn-large invisible"><i class="fab fa-facebook-square fa-3x"></i></button>
+        <button id="in" class="btn-large invisible"><i class="fab fa-instagram fa-3x"></i></button>
+    </div>
+
+
+    <div id="contacts" class="footer">
+        Created in 2018 &copy;
     </div>
 
 
